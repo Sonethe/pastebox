@@ -53,7 +53,7 @@ public class PasteBoxServiceImpl implements PasteBoxService {
         pasteBox.setPublic(request.getPublicStatus() == PublicStatus.PUBLIC);
         pasteBox.setLifetime(LocalDateTime.now().plusSeconds(request.getExpirationTimeSeconds()));
 
-        pasteBoxRepositoryMap.add(pasteBox);
+        pasteBoxRepositoryMap.addToMap(pasteBox);
 
         return new PasteBoxUrlResponse(host + "/" + pasteBox.getHash());
     }

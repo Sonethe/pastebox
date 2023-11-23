@@ -7,5 +7,5 @@ import java.util.List;
 public interface PasteBoxRepository {
     PasteBox getByHash(String hash);
     List<PasteBox> getListOfPubicAndAlive(int amount);
-    void add(PasteBox pasteBox);
+    void addToMap(PasteBox pasteBox);
 }

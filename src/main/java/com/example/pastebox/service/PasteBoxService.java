@@ -3,7 +3,6 @@ package com.example.pastebox.service;
 import com.example.pastebox.api.request.PasteBoxRequest;
 import com.example.pastebox.api.response.PasteBoxResponse;
 import com.example.pastebox.api.response.PasteBoxUrlResponse;
-import com.example.pastebox.model.PasteBox;
 
 import java.util.List;
 
