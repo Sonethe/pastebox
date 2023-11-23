@@ -1,1 +1,3 @@
-
+app:
+  host: http://pastebox.sendel.ru
+  publicListSize: 10
